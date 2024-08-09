@@ -135,6 +135,23 @@ form.sign-up-form {
   transition: 0.4s;
 }
 
+input[type="date"],
+select {
+  width: 100%;
+  border: 1px solid #bbb;
+  padding: 0.5rem;
+  font-size: 0.95rem;
+  color: #151111;
+  background: #fff;
+  border-radius: 0.3rem;
+  transition: 0.4s;
+}
+
+input[type="date"]:focus,
+select:focus {
+  border-bottom-color: #151111;
+}
+
 label {
   position: absolute;
   left: 0;
